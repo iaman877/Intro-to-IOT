@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
-#define FIREBASE_HOST "iot-task-2.firebaseio.com"                            //Your Firebase Project URL goes here without "http:" and "/"
-#define FIREBASE_AUTH"HJCDhKaHDfknkxAkxkRxU"                      //Your Firebase Database Secret goes here
+#define FIREBASE_HOST " "                            //Your Firebase Project URL goes here without "http:" and "/"
+#define FIREBASE_AUTH" "                      //Your Firebase Database Secret goes here
 #define WIFI_SSID "Aman"                                                                                  //your WiFi SSID for which yout NodeMCU connects
 #define WIFI_PASSWORD "aman12345678"                                             //Password of your wifi network 
 #define Relay1 D5  
