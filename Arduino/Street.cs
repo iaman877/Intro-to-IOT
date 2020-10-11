@@ -8,7 +8,7 @@ int sensorValue = 0;
           { 
               sensorValue=analogRead(sensorPin); 
                Serial.println(sensorValue); 
-             if(sensorValue>300) 
+             if(sensorValue<300) 
                  { 
                       digitalWrite(13,HIGH); 
                } 
